@@ -1,0 +1,4 @@
+v3.1
+- Исправлен ZoneInfoNotFoundError на Windows/Python 3.14.
+- Добавлен пакет tzdata.
+- Добавлен fallback UTC+3 для Москвы на случай отсутствия IANA timezone database.
